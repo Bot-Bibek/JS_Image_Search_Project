@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Image Search</title>
+  <style>
+    .welcome {
+  text-align: center;
+  margin: 0 auto;
+  width: 80%; 
+  margin-top: 60px;
+  font-size: 2em;
+  } 
+  
+  h2 {
+  color: black;
+  text-transform: uppercase;
+}
+
+span {
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
+    
+  </style>
+</head>
+
+<body>
+
+  <h1>Search Lens</h1>
+  <p>Discover Through a New Lens</p>
+  <form action="">
+    <input type="text" id="search-input" placeholder="Search For Image">
+    <button id="search-button">Search</button>
+  </form>
+
+  <div class="search-results"> 
+    <div class="welcome">
+      <h2></h2>
+    </div>
+  </div>
+
+  <button id="show-more-button">Show More</button>
+
+
+  
+
+  <script src="app.js"></script>
+</body>
+</html>
